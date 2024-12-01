@@ -16,7 +16,7 @@ const NavBar = () => {
       ];
       
     return (
-        <div>
+        <div className="text-xl font-bold mb-7">
        <div className="text-3xl md:hidden" onClick={()=>setOpen(!open)}>
         {
         open === true ? <IoCloseSharp></IoCloseSharp>: <HiMenuAlt1></HiMenuAlt1>
